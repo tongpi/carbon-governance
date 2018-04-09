@@ -186,15 +186,6 @@
             </releases>
         </pluginRepository>
     </pluginRepositories>
-
-    <distributionManagement>
-        <repository>
-            <id>nexus-releases</id>
-            <name>WSO2 Release Distribution Repository</name>
-            <url>http://maven.wso2.org/nexus/service/local/staging/deploy/maven2/</url>
-        </repository>
-    </distributionManagement>
-
     <dependencyManagement>
         <dependencies>
             <!-- Carbon Kernel Dependencies-->
@@ -1399,7 +1390,7 @@
         <project.scm.id>my-scm-server</project.scm.id>
         <owasp.encoder.version>1.1</owasp.encoder.version>
 
-    </properties>
+    </properties>       
     <distributionManagement>
         <repository>
             <id>releases</id>
@@ -1411,7 +1402,7 @@
             <name>长城数字软件开发库</name>
             <url>http://192.168.200.69:8081/nexus/content/repositories/snapshots/</url>
         </snapshotRepository>
-    </distributionManagement>      
+    </distributionManagement>    
 </project>
 
 
