@@ -20,15 +20,15 @@
 <component xmlns="http://products.wso2.org/carbon">
     <ManagementPermissions>
         <ManagementPermission>
-            <DisplayName>Configure</DisplayName>
+            <DisplayName>配置</DisplayName>
             <ResourceId>/permission/admin/configure</ResourceId>
         </ManagementPermission>
         <ManagementPermission>
-            <DisplayName>Governance</DisplayName>
+            <DisplayName>治理</DisplayName>
             <ResourceId>/permission/admin/configure/governance</ResourceId>
         </ManagementPermission>
         <ManagementPermission>
-            <DisplayName>Taxonomy</DisplayName>
+            <DisplayName>分类</DisplayName>
             <ResourceId>/permission/admin/configure/governance/taxonomy</ResourceId>
         </ManagementPermission>
     </ManagementPermissions>
